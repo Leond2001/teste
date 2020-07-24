@@ -1,0 +1,43 @@
+/* -------Menu de navegação / Barra de pesquisa / ícones ---------*/
+    /*Barra de pesquisa*/
+header#menu{
+    margin-left: -1%;
+    margin-right: -1%;
+    border-bottom: #DBDBDB;
+    border-style: solid;
+    border-width: 1px;
+    border-top: #DBDBDB;
+    border-right: #DBDBDB;
+    border-left: #DBDBDB;
+}
+header#menu div.pesquisa{
+    display: flex;
+    height: 75px;
+    margin-top: -0.5%;
+    margin-left: -1%;
+    margin-right: -1%;
+    justify-content: center;
+    align-items: center;
+}
+
+header#menu div form input{
+    display: flex;
+    background-color: #FAFAFA;
+    border: #DBDBDB;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+}
+.navegacao{
+    display: flex;
+    
+    align-content: center;
+}
+    /*Ícones*/
+
+.icones img{
+    width: 20px;
+}
